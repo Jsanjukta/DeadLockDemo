@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6BEB37122334DA0E00CED340 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BEB37112334DA0E00CED340 /* AppDelegate.swift */; };
+		6BEB37142334DA0E00CED340 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BEB37132334DA0E00CED340 /* ViewController.swift */; };
+		6BEB37172334DA0E00CED340 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BEB37152334DA0E00CED340 /* Main.storyboard */; };
+		6BEB371A2334DA0E00CED340 /* Deadlock.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6BEB37182334DA0E00CED340 /* Deadlock.xcdatamodeld */; };
+		6BEB371C2334DA1000CED340 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BEB371B2334DA1000CED340 /* Assets.xcassets */; };
+		6BEB371F2334DA1000CED340 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BEB371D2334DA1000CED340 /* LaunchScreen.storyboard */; };
+		6BEB372A2334DA1000CED340 /* DeadlockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BEB37292334DA1000CED340 /* DeadlockTests.swift */; };
+		6BEB37352334DA1000CED340 /* DeadlockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BEB37342334DA1000CED340 /* DeadlockUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6BEB37262334DA1000CED340 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6BEB37062334DA0E00CED340 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6BEB370D2334DA0E00CED340;
+			remoteInfo = Deadlock;
+		};
+		6BEB37312334DA1000CED340 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6BEB37062334DA0E00CED340 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6BEB370D2334DA0E00CED340;
+			remoteInfo = Deadlock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6BEB370E2334DA0E00CED340 /* Deadlock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Deadlock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BEB37112334DA0E00CED340 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6BEB37132334DA0E00CED340 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6BEB37162334DA0E00CED340 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6BEB37192334DA0E00CED340 /* Deadlock.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Deadlock.xcdatamodel; sourceTree = "<group>"; };
+		6BEB371B2334DA1000CED340 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6BEB371E2334DA1000CED340 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6BEB37202334DA1000CED340 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BEB37252334DA1000CED340 /* DeadlockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeadlockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BEB37292334DA1000CED340 /* DeadlockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeadlockTests.swift; sourceTree = "<group>"; };
+		6BEB372B2334DA1000CED340 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BEB37302334DA1000CED340 /* DeadlockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeadlockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BEB37342334DA1000CED340 /* DeadlockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeadlockUITests.swift; sourceTree = "<group>"; };
+		6BEB37362334DA1000CED340 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6BEB370B2334DA0E00CED340 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BEB37222334DA1000CED340 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BEB372D2334DA1000CED340 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6BEB37052334DA0E00CED340 = {
+			isa = PBXGroup;
+			children = (
+				6BEB37102334DA0E00CED340 /* Deadlock */,
+				6BEB37282334DA1000CED340 /* DeadlockTests */,
+				6BEB37332334DA1000CED340 /* DeadlockUITests */,
+				6BEB370F2334DA0E00CED340 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6BEB370F2334DA0E00CED340 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6BEB370E2334DA0E00CED340 /* Deadlock.app */,
+				6BEB37252334DA1000CED340 /* DeadlockTests.xctest */,
+				6BEB37302334DA1000CED340 /* DeadlockUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BEB37102334DA0E00CED340 /* Deadlock */ = {
+			isa = PBXGroup;
+			children = (
+				6BEB37112334DA0E00CED340 /* AppDelegate.swift */,
+				6BEB37132334DA0E00CED340 /* ViewController.swift */,
+				6BEB37152334DA0E00CED340 /* Main.storyboard */,
+				6BEB371B2334DA1000CED340 /* Assets.xcassets */,
+				6BEB371D2334DA1000CED340 /* LaunchScreen.storyboard */,
+				6BEB37202334DA1000CED340 /* Info.plist */,
+				6BEB37182334DA0E00CED340 /* Deadlock.xcdatamodeld */,
+			);
+			path = Deadlock;
+			sourceTree = "<group>";
+		};
+		6BEB37282334DA1000CED340 /* DeadlockTests */ = {
+			isa = PBXGroup;
+			children = (
+				6BEB37292334DA1000CED340 /* DeadlockTests.swift */,
+				6BEB372B2334DA1000CED340 /* Info.plist */,
+			);
+			path = DeadlockTests;
+			sourceTree = "<group>";
+		};
+		6BEB37332334DA1000CED340 /* DeadlockUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6BEB37342334DA1000CED340 /* DeadlockUITests.swift */,
+				6BEB37362334DA1000CED340 /* Info.plist */,
+			);
+			path = DeadlockUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6BEB370D2334DA0E00CED340 /* Deadlock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BEB37392334DA1000CED340 /* Build configuration list for PBXNativeTarget "Deadlock" */;
+			buildPhases = (
+				6BEB370A2334DA0E00CED340 /* Sources */,
+				6BEB370B2334DA0E00CED340 /* Frameworks */,
+				6BEB370C2334DA0E00CED340 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Deadlock;
+			productName = Deadlock;
+			productReference = 6BEB370E2334DA0E00CED340 /* Deadlock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6BEB37242334DA1000CED340 /* DeadlockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BEB373C2334DA1000CED340 /* Build configuration list for PBXNativeTarget "DeadlockTests" */;
+			buildPhases = (
+				6BEB37212334DA1000CED340 /* Sources */,
+				6BEB37222334DA1000CED340 /* Frameworks */,
+				6BEB37232334DA1000CED340 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6BEB37272334DA1000CED340 /* PBXTargetDependency */,
+			);
+			name = DeadlockTests;
+			productName = DeadlockTests;
+			productReference = 6BEB37252334DA1000CED340 /* DeadlockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6BEB372F2334DA1000CED340 /* DeadlockUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BEB373F2334DA1000CED340 /* Build configuration list for PBXNativeTarget "DeadlockUITests" */;
+			buildPhases = (
+				6BEB372C2334DA1000CED340 /* Sources */,
+				6BEB372D2334DA1000CED340 /* Frameworks */,
+				6BEB372E2334DA1000CED340 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6BEB37322334DA1000CED340 /* PBXTargetDependency */,
+			);
+			name = DeadlockUITests;
+			productName = DeadlockUITests;
+			productReference = 6BEB37302334DA1000CED340 /* DeadlockUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6BEB37062334DA0E00CED340 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Krishna;
+				TargetAttributes = {
+					6BEB370D2334DA0E00CED340 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					6BEB37242334DA1000CED340 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 6BEB370D2334DA0E00CED340;
+					};
+					6BEB372F2334DA1000CED340 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 6BEB370D2334DA0E00CED340;
+					};
+				};
+			};
+			buildConfigurationList = 6BEB37092334DA0E00CED340 /* Build configuration list for PBXProject "Deadlock" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6BEB37052334DA0E00CED340;
+			productRefGroup = 6BEB370F2334DA0E00CED340 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6BEB370D2334DA0E00CED340 /* Deadlock */,
+				6BEB37242334DA1000CED340 /* DeadlockTests */,
+				6BEB372F2334DA1000CED340 /* DeadlockUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6BEB370C2334DA0E00CED340 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BEB371F2334DA1000CED340 /* LaunchScreen.storyboard in Resources */,
+				6BEB371C2334DA1000CED340 /* Assets.xcassets in Resources */,
+				6BEB37172334DA0E00CED340 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BEB37232334DA1000CED340 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BEB372E2334DA1000CED340 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6BEB370A2334DA0E00CED340 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BEB37142334DA0E00CED340 /* ViewController.swift in Sources */,
+				6BEB371A2334DA0E00CED340 /* Deadlock.xcdatamodeld in Sources */,
+				6BEB37122334DA0E00CED340 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BEB37212334DA1000CED340 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BEB372A2334DA1000CED340 /* DeadlockTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BEB372C2334DA1000CED340 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BEB37352334DA1000CED340 /* DeadlockUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6BEB37272334DA1000CED340 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6BEB370D2334DA0E00CED340 /* Deadlock */;
+			targetProxy = 6BEB37262334DA1000CED340 /* PBXContainerItemProxy */;
+		};
+		6BEB37322334DA1000CED340 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6BEB370D2334DA0E00CED340 /* Deadlock */;
+			targetProxy = 6BEB37312334DA1000CED340 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6BEB37152334DA0E00CED340 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BEB37162334DA0E00CED340 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6BEB371D2334DA1000CED340 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BEB371E2334DA1000CED340 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6BEB37372334DA1000CED340 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6BEB37382334DA1000CED340 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6BEB373A2334DA1000CED340 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Deadlock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tets-gmail.com.Deadlock";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6BEB373B2334DA1000CED340 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Deadlock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tets-gmail.com.Deadlock";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6BEB373D2334DA1000CED340 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DeadlockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tets-gmail.com.DeadlockTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Deadlock.app/Deadlock";
+			};
+			name = Debug;
+		};
+		6BEB373E2334DA1000CED340 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DeadlockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tets-gmail.com.DeadlockTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Deadlock.app/Deadlock";
+			};
+			name = Release;
+		};
+		6BEB37402334DA1000CED340 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DeadlockUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tets-gmail.com.DeadlockUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Deadlock;
+			};
+			name = Debug;
+		};
+		6BEB37412334DA1000CED340 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DeadlockUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tets-gmail.com.DeadlockUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Deadlock;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6BEB37092334DA0E00CED340 /* Build configuration list for PBXProject "Deadlock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BEB37372334DA1000CED340 /* Debug */,
+				6BEB37382334DA1000CED340 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BEB37392334DA1000CED340 /* Build configuration list for PBXNativeTarget "Deadlock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BEB373A2334DA1000CED340 /* Debug */,
+				6BEB373B2334DA1000CED340 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BEB373C2334DA1000CED340 /* Build configuration list for PBXNativeTarget "DeadlockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BEB373D2334DA1000CED340 /* Debug */,
+				6BEB373E2334DA1000CED340 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BEB373F2334DA1000CED340 /* Build configuration list for PBXNativeTarget "DeadlockUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BEB37402334DA1000CED340 /* Debug */,
+				6BEB37412334DA1000CED340 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6BEB37182334DA0E00CED340 /* Deadlock.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6BEB37192334DA0E00CED340 /* Deadlock.xcdatamodel */,
+			);
+			currentVersion = 6BEB37192334DA0E00CED340 /* Deadlock.xcdatamodel */;
+			path = Deadlock.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6BEB37062334DA0E00CED340 /* Project object */;
+}
